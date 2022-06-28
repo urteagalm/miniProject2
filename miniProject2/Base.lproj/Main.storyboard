@@ -33,6 +33,13 @@
                                     <segue destination="XYt-0m-aGl" kind="show" id="ZsM-Qa-xyp"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jWq-hE-W6A">
+                                <rect key="frame" x="84" y="350" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="0.77712423053283397" blue="0.7483657601302145" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -44,6 +51,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Y29-86-KpZ"/>
                     <connections>
+                        <outlet property="LabelTest" destination="jWq-hE-W6A" id="pnl-em-yGP"/>
                         <outlet property="areYouReady" destination="20G-Vq-ymR" id="CZn-d2-Cfw"/>
                     </connections>
                 </viewController>

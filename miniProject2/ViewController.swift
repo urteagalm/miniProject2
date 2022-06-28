@@ -11,6 +11,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var areYouReady: UILabel!
     
+    @IBOutlet weak var LabelTest: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
